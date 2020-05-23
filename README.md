@@ -1,8 +1,8 @@
 # Latest Update
 
+ - 2020-05-24 02:28:41  [Index](db/db-index.md) 
  - 2020-05-23 17:34:29  [Transaction Isolation Levels](db/transcation-isolation.md) 
  - 2020-05-23 17:00:22  [ACID Properties](db/acid.md) 
- - 2020-05-23 13:29:25  [Friend Functions](cpp/friend_func.md) 
 
 # Table of Contents
 
@@ -23,4 +23,5 @@
 
  - 2020-05-23 17:00:22  [ACID Properties](db/acid.md) 
  - 2020-05-23 17:34:29  [Transaction Isolation Levels](db/transcation-isolation.md) 
+ - 2020-05-24 02:28:41  [Index](db/db-index.md) 
 
