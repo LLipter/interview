@@ -1,4 +1,4 @@
-# Java Garbage Collection
+# Java Garbage Collection - Garbage Collectors
 
 ### Garbage Collectors
 
