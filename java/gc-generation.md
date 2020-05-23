@@ -50,3 +50,5 @@ The **Permanent Generation** contains metadata required by the JVM to describe t
 
 Classes may get collected (unloaded) if the JVM finds they are no longer needed and space may be needed for other classes. The permanent generation is included in a full garbage collection.
 
+# Reference
+1. [Java Garbage Collection Basics](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html)
