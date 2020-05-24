@@ -16,8 +16,15 @@ if __name__ == '__main__':
 
         filedata = []
         first_create_time = datetime.datetime.max
+        dirtitle = ''
         for filename in os.listdir(dirname):
             link = os.path.join(dirname, filename)
+
+            if filename == 'title.txt':
+                with open(link, 'r') as i_file:
+                    dirtitle = i_file.readline().strip()
+                continue
+
             title = ''
             with open(link, 'r') as i_file:
                 title = i_file.readline()[1:].strip()
@@ -27,7 +34,7 @@ if __name__ == '__main__':
                 update_date = datetime.datetime.strptime(pipe[2][12:-7].decode(), '%b %d %H:%M:%S %Y')
                 first_create_time = min(first_create_time, create_date)
             filedata.append((title, link, create_date, update_date))
-        data[dirname] = (filedata, first_create_time)
+        data[dirname] = (filedata, first_create_time, dirtitle)
     
     latest_files = []
     for i in [j[0] for j in data.values()]:
@@ -41,8 +48,10 @@ if __name__ == '__main__':
         o_file.write('\n')
 
         o_file.write('# Table of Contents\n\n')
-        for dirname, (filedata, first_create_time) in sorted(data.items(), key=lambda item: item[1][1]):
-            o_file.write('### {0}\n\n'.format(dirname))
+        for dirname, (filedata, first_create_time, dirtitle) in sorted(data.items(), key=lambda item: item[1][1]):
+            if dirtitle == '':
+                dirtitle = dirname
+            o_file.write('### {0}\n\n'.format(dirtitle))
             for title, link, create_date, update_date in sorted(filedata, key=itemgetter(2)):
                 o_file.write(' - {2}  [{0}]({1}) \n'.format(title, link, create_date))
             o_file.write('\n')
