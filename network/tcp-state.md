@@ -1,4 +1,4 @@
-# TCP state transition diagram
+# TCP State Transition Diagram
 
 A TCP connection progresses through a series of states during its lifetime. The following diagram illustrates the possible states for a TCP connection and how the states transition based on various events from either the network or from the local TCP sockets application.
 
