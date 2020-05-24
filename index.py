@@ -21,7 +21,7 @@ if __name__ == '__main__':
             title = ''
             with open(link, 'r') as i_file:
                 title = i_file.readline()[1:].strip()
-                pipe = subprocess.Popen('git log {0}'.format(link), shell=True, stdout=subprocess.PIPE)
+                pipe = subprocess.Popen('git log {0}'.format(link.replace(' ', '\ ')), shell=True, stdout=subprocess.PIPE)
                 pipe = pipe.stdout.readlines()
                 create_date = datetime.datetime.strptime(pipe[-3][12:-7].decode(), '%b %d %H:%M:%S %Y')
                 update_date = datetime.datetime.strptime(pipe[2][12:-7].decode(), '%b %d %H:%M:%S %Y')

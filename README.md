@@ -1,8 +1,8 @@
 # Latest Updates
 
+ - 2020-05-24 19:00:05  [Heap and Heap Sort](data structure and algorithm/heap.md) 
  - 2020-05-24 18:19:54  [SQL Database Engine](db/engine.md) 
  - 2020-05-24 02:28:41  [Index](db/db-index.md) 
- - 2020-05-23 17:34:29  [Transaction Isolation Levels](db/transcation-isolation.md) 
 
 # Table of Contents
 
@@ -25,4 +25,8 @@
  - 2020-05-23 17:34:29  [Transaction Isolation Levels](db/transcation-isolation.md) 
  - 2020-05-24 02:28:41  [Index](db/db-index.md) 
  - 2020-05-24 18:19:54  [SQL Database Engine](db/engine.md) 
+
+### data structure and algorithm
+
+ - 2020-05-24 19:00:05  [Heap and Heap Sort](data structure and algorithm/heap.md) 
 
