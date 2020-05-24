@@ -14,7 +14,7 @@ A Heap is a special Tree-based data structure in which the tree is a **complete 
 
 ![](https://www.tutorialspoint.com/data_structures_algorithms/images/max_heap_animation.gif)
 
-Time complexity: $O(\log n)$
+Time complexity: O(logn)
 
 # Deletion Algorithm
 
@@ -26,7 +26,7 @@ Time complexity: $O(\log n)$
 
 ![](https://www.tutorialspoint.com/data_structures_algorithms/images/max_heap_deletion_animation.gif)
 
-Time complexity: $O(\log n)$
+Time complexity: O(logn)
 
 # Heap Construction Algorithm
 
@@ -41,7 +41,7 @@ BUILD-HEAP(A)
 END
 ~~~
 
-Time complexity: $O(n)$
+Time complexity: O(n)
 
 # HeapSort Algorithm
 
@@ -51,7 +51,7 @@ Heap Sort Algorithm for sorting in increasing order:
 2. At this point, the largest item is stored at the root of the heap. Replace it with the last item of the heap followed by reducing the size of heap by 1. Finally, heapify the root of tree.
 3. Repeat above steps while size of heap is greater than 1.
 
-Time Complexity: $O(n \log n)$.
+Time Complexity: O(n*logn)
 
 # References
 
