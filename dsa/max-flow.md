@@ -8,6 +8,8 @@ Flow in the network should follow the following conditions:
  - For any edge(E<sub>i</sub>) in the network, 0 <= flow(E<sub>i</sub>) <= Capacity(E<sub>i</sub>).
  - Total flow out of the source node is equal total to flow in to the sink node.
 
+$$ 0 \le flow(E_i) \le Capacity(E_i)$$
+
 ### Maximum Flow
 
 It is defined as the maximum amount of flow that the network would allow to flow from source to sink. Multiple algorithms exist in solving the maximum flow problem. Two major algorithms to solve these kind of problems are Ford-Fulkerson algorithm and Dinic's Algorithm.
