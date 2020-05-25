@@ -5,10 +5,9 @@ In graph theory, a flow network is defined as a directed graph involving a sourc
 Flow in the network should follow the following conditions:
 
  - For any non-source and non-sink node, the input flow is equal to output flow.
- - For any edge(E<sub>i</sub>) in the network, 0 <= flow(E<sub>i</sub>) <= Capacity(E<sub>i</sub>).
+ - For any edge(*E<sub>i</sub>*) in the network, 0 <= flow(*E<sub>i</sub>*) <= Capacity(*E<sub>i</sub>*).
  - Total flow out of the source node is equal total to flow in to the sink node.
 
-$$ 0 \le flow(E_i) \le Capacity(E_i)$$
 
 ### Maximum Flow
 
