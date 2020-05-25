@@ -1,6 +1,6 @@
 # Latest Updates
 
- - 2020-05-25 20:36:39  [](network/same-origin.md) 
+ - 2020-05-25 20:36:39  [Same-origin policy](network/same-origin.md) 
  - 2020-05-25 19:30:27  [Dijkstra Algorithm](dsa/dijkstra.md) 
  - 2020-05-25 14:33:19  [Maximum flow](dsa/max-flow.md) 
  - 2020-05-25 11:33:43  [Page Fault](os/page-fault.md) 
@@ -37,7 +37,7 @@
 ### Network
 
  - 2020-05-24 22:26:51  [TCP State Transition Diagram](network/tcp-state.md) 
- - 2020-05-25 20:36:39  [](network/same-origin.md) 
+ - 2020-05-25 20:36:39  [Same-origin policy](network/same-origin.md) 
 
 ### Opearting System
 
