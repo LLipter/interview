@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
     with open("README.md", 'w') as o_file:
         o_file.write('# Latest Updates\n\n')
-        for i in range(3):
+        for i in range(5):
             o_file.write(' - {2}  [{0}]({1}) \n'.format(latest_files[i][0], latest_files[i][1], latest_files[i][2]))
         o_file.write('\n')
 
