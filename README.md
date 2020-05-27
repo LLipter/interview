@@ -1,10 +1,10 @@
 # Latest Updates
 
+ - 2020-05-27 17:45:42  [Inverted Index](dsa/inverted-index.md) 
  - 2020-05-26 17:56:53  [I/O Model](os/io-model.md) 
  - 2020-05-25 20:36:39  [Same-Origin Policy](network/same-origin.md) 
  - 2020-05-25 19:30:27  [Dijkstra Algorithm](dsa/dijkstra.md) 
  - 2020-05-25 14:33:19  [Maximum flow](dsa/max-flow.md) 
- - 2020-05-25 11:33:43  [Page Fault](os/page-fault.md) 
 
 # Table of Contents
 
@@ -33,6 +33,7 @@
  - 2020-05-24 19:09:06  [Heap and Heap Sort](dsa/heap.md) 
  - 2020-05-25 14:33:19  [Maximum flow](dsa/max-flow.md) 
  - 2020-05-25 19:30:27  [Dijkstra Algorithm](dsa/dijkstra.md) 
+ - 2020-05-27 17:45:42  [Inverted Index](dsa/inverted-index.md) 
 
 ### Network
 
